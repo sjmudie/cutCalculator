@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title>Cut length calculator</title>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="main">
+      <h1>Material cut calculator</h1>
+      <p>
+        The main use for this app is to first input the length of material you
+        have, then add the lengths of material you need to cut. It will then
+        calculate the most efficient lengths to cut together to leave minimal
+        waste.
+      </p>
+      <div id="container">
+        <input id="materialLength" placeholder="Material length(mm)" /></br>
+        <input class="cutLength" placeholder="Cut length(mm)" />
+        <input class="quantity" placeholder="Quantity" />
+      </div>
+      
+      <div id="buttons">
+        <button id="btnAdd">Add</button>
+        <button id="btnCalculate">Calculate</button>
+        <button id="btnClear">Clear</button>
+        <p id="output"></p>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

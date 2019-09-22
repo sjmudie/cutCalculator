@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+#container {
+  padding: 20px;
+  padding-left: 0;
+  overflow-y: scroll;
+  max-height: 100px;
+  max-width: 310px;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 130px;
+}
+
+p {
+  margin-top: 25px;
+  max-width: 310px;
+  margin-bottom: 25px;
+}
+
+.quantity {
+  float: right;
+}
+
+#materialLength {
+  margin-bottom: 20px;
+}
